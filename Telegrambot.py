@@ -3,6 +3,7 @@ import telebot
 
  
 owm = pyowm.OWM('12dae92ed6a64b461ffdedb00c6d4f77', language = 'ua')
+telebot.apihelper.proxy = {'https': 'https://78.47.202.24:8081'}
 bot = telebot.TeleBot("701199951:AAGm5uAUEDfnXiDtmex0GLizwqcXwDR37s0")
 
 @bot.message_handler(content_types=['text'])
