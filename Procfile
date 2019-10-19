@@ -1,3 +1,1 @@
-heroku ps:scale web=0
-heroku ps:scale worker=1
-worker: python3 Telegrambot.py 
+web: python3 Telegrambot.py 
